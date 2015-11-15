@@ -1,4 +1,4 @@
-Diceware
+Lit rndm
 ========
 
 > Random string generator. Useful for creating fast, not cryptographically secure, salts.
@@ -15,7 +15,7 @@ $ lit install james2doyle/rndm
 
 ```lua
 -- base62 as default
-local rndm = require("./init").base62
+local rndm = require("rndm").base62
 
 print(rndm(16))
 
